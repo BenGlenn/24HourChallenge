@@ -1,0 +1,16 @@
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\24Hour.Models.dll.config
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\24Hour.Models.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\24Hour.Models.pdb
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\EntityFramework.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\EntityFramework.xml
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\obj\Debug\Challenge.Models.csproj.CoreCompileInputs.cache
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\obj\Debug\Challenge.Models.csproj.CopyComplete
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\obj\Debug\24Hour.Models.dll
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\obj\Debug\24Hour.Models.pdb
+C:\Users\ben\source\repos\24HourChallenge\24Hour.Models\obj\Debug\Challenge.Models.csprojAssemblyReference.cache
