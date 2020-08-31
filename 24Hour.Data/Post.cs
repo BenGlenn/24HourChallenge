@@ -19,7 +19,7 @@ namespace Challenge.Data
         public string Text { get; set; }
         [Required]
         [ForeignKey("User")]
-        public User Author { get; set; }
+        public int Author { get; set; }
         public virtual User User { get; set;}
     }
 }
