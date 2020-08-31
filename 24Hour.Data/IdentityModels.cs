@@ -27,7 +27,7 @@ namespace Challenge.Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
@@ -46,6 +46,11 @@ namespace Challenge.Data
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
                 .Add(new IdentityUserRoleConfiguration());
+
+            modelBuilder.Entity<Post>()
+                .HasOptional<User>(s => s.User)
+                .WithMany()
+                .WillCascadeOnDelete(false);
         }
     }
 
@@ -56,7 +61,7 @@ namespace Challenge.Data
             HasKey(iul => iul.UserId);
         }
     }
-  
+
     public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
     {
         public IdentityUserRoleConfiguration()
