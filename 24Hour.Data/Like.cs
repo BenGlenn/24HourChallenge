@@ -13,10 +13,10 @@ namespace Challenge.Data
         [Key]
         public int LikeId { get; set; }
         [ForeignKey("User")]
-        public User Liker { get; set; }
+        public int Liker { get; set; }
         public virtual User User { get; set; }
         [ForeignKey("Post")]
-        public Post LikedPost { get; set; }
+        public int LikedPost { get; set; }
         public virtual Post Post { get; set; }
 
     }

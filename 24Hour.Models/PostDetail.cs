@@ -8,5 +8,6 @@ namespace Challenge.Models
 {
     public class PostDetail
     {
+        // this is a change
     }
 }
