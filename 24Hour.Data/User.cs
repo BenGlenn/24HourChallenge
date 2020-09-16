@@ -10,6 +10,7 @@ namespace Challenge.Data
     public class User
     {
         [Key]
+        public int Id { get; set; }
         public Guid UserId { get; set; }
         [Required]
         public string Name { get; set; }

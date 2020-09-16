@@ -14,10 +14,10 @@ namespace Challenge.Data
         public int CommentId { get; set; }
         public string Text { get; set; }
         [ForeignKey("User")]
-        public User Author { get; set; }
+        public int Author { get; set; }
         public virtual User User { get; set; }
         [ForeignKey("Post")]
-        public Post CommentedPost { get; set; }
+        public int CommentedPost { get; set; }
         public virtual Post Post { get; set; }
     }
 }
